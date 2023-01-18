@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(to right, #3f5efb, #de4f6b);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.wrapper{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+}
+.dice-area{
+    margin:20px 210px ;
+    text-align: center;
+    display: inline-block;
+}
+img{
+    width:200px;
+}

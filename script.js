@@ -1,0 +1,20 @@
+const first = Math.floor(Math.random()*6)+1;
+const firstDiceImage = 'assets/dice' + first + '.png';
+
+document.querySelectorAll('img')[0].setAttribute('src',firstDiceImage);
+
+const second = Math.floor(Math.random()*6)+1;
+const secondDiceImage = 'assets/dice' + second + '.png';
+
+document.querySelectorAll('img')[0].setAttribute('src',secondDiceImage);
+
+if(first > second)
+{
+    document.querySelector('h1').innerHTML = ' the winner is user 1';
+}
+else if(first < second){
+    document.querySelector('h2').innerHTML = ' the winner is user 2';
+}
+else{
+    document.querySelector('h1').innerHTML = "it's a Draw";
+}
